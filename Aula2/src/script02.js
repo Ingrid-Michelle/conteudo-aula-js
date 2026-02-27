@@ -1,4 +1,4 @@
-// Exemplos de operações aritméticas
+// Exemplos de Operações Aritméticas
 let a = 5;
 let x = (100 + 200) * a;
 
