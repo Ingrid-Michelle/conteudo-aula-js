@@ -25,13 +25,13 @@ switch (opcoes) {
     
     case "/":
        if (numero2 === 0) {
-        alert("Não é possível dividir por zero. Tente novamente!")
-       } else{
+        alert("Não é possível dividir por zero. Tente novamente!");
+        window.location.reload();
+        } else {
         alert("O resultado da operação é: " + (numero1 / numero2));
        }
        break;
     default:
         alert("Informe um valor válido!");
-        Window.location.reload();
+        window.location.reload();
 }
-
