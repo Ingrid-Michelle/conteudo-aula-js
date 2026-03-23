@@ -8,7 +8,7 @@ const texto = document.querySelector(".ex2");
 const botao = document.querySelector(".botaoEx2");
 
 function mudarCorDoTexto() {
-  texto.style.color = "darkred";
+  texto.style.color = "red";
 }
 
 botao.addEventListener("click", mudarCorDoTexto);
