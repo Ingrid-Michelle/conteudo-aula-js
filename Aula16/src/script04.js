@@ -14,8 +14,6 @@ function animacao() {
       posicao = posicao + 1;
       elemento.style.top = posicao + 'px';
       elemento.style.left = posicao + 'px';
-      elemento.style.right = posicao + 'px';
-      elemento.style.bottom = posicao + 'px';
     }
   }
 }
