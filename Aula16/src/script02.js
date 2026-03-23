@@ -1,28 +1,14 @@
-// Utilizando o getElementById()
-const elemento1 = document.getElementById("selecionandoElemento"); 
+// Alterando estilo
+const elemento = document.querySelector(".ex1");
 
-console.log(elemento1);
+elemento.style.color = "orange";
 
-// Utilizando o getElementsByTagName()
-const elemento2 = document.getElementsByTagName("h1");
+// Alterando estilo com evento
+const texto = document.querySelector(".ex2");
+const botao = document.querySelector(".botaoEx2");
 
-console.log(elemento2[0]);
+function mudarCorDoTexto() {
+  texto.style.color = "darkred";
+}
 
-// Utilizando o getElementsByClassName()
-const elemento3 = document.getElementsByClassName("selecionandoElementoPorClasse");
- 
-console.log(elemento3[0]);
-
-// Utilizando o querySelector()
-const elemento4 = document.querySelector(".elementoClasse");
-
-console.log(elemento4);
-
-const elemento5 = document.querySelector("#elementoID")
-
-console.log(elemento5);
-
-// Utilizando o querySelectoAll()
-const elementos = document.querySelectorAll("h3");
-
-console.log(elementos[0]);
+botao.addEventListener("click", mudarCorDoTexto);
