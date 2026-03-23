@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: rgb(182, 182, 244);
+  background-color: ghostwhite;
 }
 
 #container {
@@ -14,5 +14,5 @@ body {
   width: 100px;
   height: 100px;
   position: absolute;
-  background-color:rgb(110, 171, 171);
+  background-color:darkslategray;
 }
