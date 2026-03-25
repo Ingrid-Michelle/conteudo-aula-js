@@ -1,8 +1,12 @@
 body{
     font-family: sans-serif;
-    background-color: rgb(237, 226, 212);
+    background-color: rgb(251, 214, 234);
 }
 
 .ativo {
     color: brown;
+}
+
+.info {
+    color: rgb(165, 0, 63);
 }
